@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+* {
+    font-family: "Arvo", serif;
+}
+
+.admin-dashboard {
+    height: 100vh;
+}
+.links > a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .admin-dashboard {
+        height: auto;
+    }
+}
